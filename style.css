@@ -1,0 +1,87 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.app {
+    width: 40%;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: #f1f2f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: .5rem;
+}
+
+input {
+    width: 90%;
+    padding: 1rem .5rem;
+    outline: none;
+    border-radius: .5rem;
+    border: none;
+}
+
+
+
+button {
+    padding: .5rem;
+    cursor: pointer;
+    font-weight: 900;
+    border-radius: .5rem;
+    border: none;
+    color: #fff;
+    margin: 0 .5rem;
+}
+
+.income {
+    background-color: rgb(25, 118, 25);
+}
+
+.expense {
+    background-color: rgb(194, 54, 54);
+}
+
+.reset {
+    background-color: rgb(49, 115, 212);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr, th {
+    border: solid 1px black;
+    padding: 1rem;
+}
+
+h2 {
+    font-weight: 200;
+}
+
+.incomeTotal {
+    color: rgb(25, 118, 25);
+    font-weight: 900;
+}
+
+.expenseTotal {
+    color: rgb(194, 54, 54);
+    font-weight: 900;
+}
+
+.amountTotal {
+    color: rgb(25, 97, 181);
+    font-weight: 900;
+}
+
+.total {
+    width: 90%;
+    border: solid 3px rgb(6, 52, 104);
+    text-align: center;
+    border-radius: .5rem;
+    padding: 1rem;
+}
